@@ -1,4 +1,4 @@
- /*
+/*
     Author : Abhay Singh Yadav
     Date : Date format 17/10/2019
     Time : Time format 15:20
@@ -19,8 +19,6 @@ int main(){
   
    else{
 	    std::cout << "The container is not heap \n";
-	}
-  
-  
+	}  
 	return 0; 
 } 
