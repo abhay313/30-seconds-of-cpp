@@ -1,10 +1,8 @@
-/*
-    Author : Abhay Singh Yadav
-    Date : Date format 17/10/2019
-    Time : Time format 15:20
-    Description : Check whether the container is heap or not. 
-*/
+#is_heap
 
+Description : Check whether the container is heap or not [first, last)
+
+Example :
 #include<iostream> 
 #include<algorithm>
 #include<vector>                                             
@@ -16,8 +14,7 @@ int main(){
 	if(is_heap(v1.begin(), v1.end())){ 		                   
 	    std::cout << "The container is heap \n";
 	}
-  
-   else{
+  	else{
 	    std::cout << "The container is not heap \n";
 	}  
 	return 0; 
