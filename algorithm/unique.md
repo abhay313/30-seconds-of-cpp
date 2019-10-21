@@ -12,12 +12,9 @@ int main()
 { 
 	std::vector<int> v = { 10, 1, 13, 13, 13, 16, 11, 11, 3, 17, 7, 8, 8 }; 
 	std::vector<int>::iterator ptr; 
-
 	
 	ptr = std::unique(v.begin(), v.begin() + 13); 
 	v.resize(std::distance(v.begin(), ptr)); 
-
-	
 	for (ptr = v.begin(); ptr != v.end(); ++ptr) { 
 		std::cout << *ptr << " "; 
 	} 
